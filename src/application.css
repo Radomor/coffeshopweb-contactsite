@@ -1,0 +1,484 @@
+body {
+    color: dimgray;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Geneva', 'Verdana';
+  }
+ /* header */
+  .header{
+      background: slategray;
+  }
+  .full_logo_white{
+      width: 140px;
+      margin: 15px 25px 5px ;
+  }
+  .nav_link{
+      float: right;
+      margin: 25px ;
+      margin-right: 45px;
+  }
+  .nav_link a{
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+  }
+  .logo_mrcoffee{
+      width: 155px;
+      text-align: center;
+  }
+  .logo_black_mrcoffee{
+    
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+  }
+  
+ /* fotter */
+.footer{
+    background-color: slategray;
+    color: white; 
+}
+.logo_light{
+    width:40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo_linkedin{
+    width: 20px;
+    padding: 1em;
+}
+.logo_twitter{
+    width: 20px;
+    padding: 1em;
+}
+.logo_facebook{
+    width: 20px;
+    padding: 1em;
+}
+.footer p{
+    text-align: center;
+    margin-top: -70px;    
+}
+.footer_images{
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* home */
+.img_mr_coffee_salle{
+    width: 95%;
+    height: 70%;
+}
+.main_image_box{
+    background-image: url(./assets/mr_coffee_salle.jpg);
+    width: 90%;
+    height: 98vh;
+    background-size: 90%;
+    margin-left: 5%;
+}
+.image_text{
+    text-shadow: 2px 2px 2px dimgray;
+    text-align: center;
+    color: white; 
+    padding-top: 5%;
+}
+.below_image_text{
+    text-align: center;
+    padding: 3%;
+}
+.container{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container h2{
+    text-shadow: 2px 2px 2px black;
+}
+.coffee_icon{
+    width: 40%;
+}
+.hands_icon{
+    width: 40%;
+}
+.history_icon{
+    width: 40%;
+}
+.box_1, .box_2, .box_3{
+    background-color: darkgray;
+    margin: 2%;
+    padding: 2%;
+    width: 30%;
+  
+}
+.button{
+    text-align: center;
+    padding: 2%;
+    margin: 2%;   
+}
+.gray_button{
+    background-color: slategray;
+    color: white;
+    padding: 2%;
+    font-size: x-large;
+    border-radius: 10px;
+    width: 25%;
+	text-align: center;
+}
+.under_button_text{
+    text-align: center;
+}
+.opening_info{
+    padding: 2%;
+    margin: 2%;
+}
+.icon_open{
+    width: 7%;
+    float: left;
+}
+.open_time{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.text_row{
+    padding: 5%;
+    margin: 2%;
+}
+.text_column{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.text{
+    font-weight: normal;
+}
+.bottom_text_1{
+    text-align: center;
+    padding: 4%;
+    margin-top: 5%;
+    font-size: X-large;
+}
+.bottom_text_2{
+    font-size: x-large;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* about */
+
+.container1{
+    margin: 2%;
+    padding: 5%;
+}
+.text_1{
+    width: 50%; 
+    float: left;
+    margin-right: 10%; 
+	}
+.container1 p{
+    padding: 3%;
+    margin: 2%;
+	font-size: x-large;
+}
+.container1 h2{
+    padding: 2%;
+    margin: 2%;
+	font-size: xxx-large;
+	}
+.trois_cafés{
+    width: 40%;
+}
+
+.container2{
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 10%;    
+}
+.salle2{
+    width: 35%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+.text_2{
+    padding: 1%;
+    width: 50%;
+    margin: 2%;
+    margin-left: 40%;
+}
+.container2 p{
+    padding: 2%;
+    margin: 2%;
+	font-size: x-large; 
+}
+.container2 h2{
+    margin: 2%;
+	font-size: xxx-large;
+}
+  
+/* contact */
+.contact_heading{
+    text-align: center;
+    font-size: x-large;
+    padding: 2%;
+    margin: 2%;
+}
+.address{
+    margin-left: 25%;
+}
+.address_name{
+    font-weight: bold;
+}
+.contact_info{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.map{
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 5%;
+}
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+input{
+    padding: 2%;
+     width: 100%; 
+     background-color: lightgray; 
+     border: none;    
+}
+textarea{
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    padding: 2%;
+    resize: none;
+}
+form p{
+    font-size: x-large;
+    text-align: center;
+}
+form button{
+    background-color: slategray;
+    color: white;
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
+    font-size: large;
+    box-shadow: 15% 15% 10% black;
+    border-radius: 10px;
+    margin-left: 37%;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+/* form submit pop up */
+.popUp{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.popUp_content{
+    width: 55%;
+    height: 30%;
+    background-color: white;
+    text-align: center;
+}
+.popup_logo{
+    width: 7%;
+    margin: 5%;
+    float: left;
+}
+.popUp h2{
+    text-align: center;
+    font-size: medium;
+    padding: 1%;
+    margin: 2%;
+    margin-right: 17%;
+}
+.popUp p{
+    font-size: small;
+    padding: 1%;
+    margin: 2%;
+    text-align: left;
+}
+#close_btn{
+    width: 20%;
+    padding: 2%;
+    margin: 2%;
+    font-size: large;
+    background-color: slategray;
+    color: white;
+    border-radius: 10px;
+}
+.required:after{
+    content: " *";
+} 
+/* mobile resolution*/
+@media (device-width < 800px){ 
+    /* header */
+    .full_logo_white { 
+        width: 70px;
+        margin: 2%;
+  }
+  .nav_link{
+      font-size: 7px;
+      padding: 1%;
+      margin: 1%;
+      margin-top: 3%;
+  }
+  .logo_black_mrcoffee{
+      text-align: center;
+      margin-left: 5%;
+  }
+  .logo_mrcoffee{
+      width: 25%;
+  }
+  /* footer */
+  .logo_light{
+      width: 25px;   
+  }
+  .logo_linkedin{
+      width: 15px;
+  }
+  .logo_twitter{
+    width: 15px;
+  }
+  .logo_facebook{
+    width: 15px;
+  }
+  footer p{
+      font-size: xx-small;
+      padding: 1%;
+  }
+  /* home page */
+  .main_image_box{
+      height: 27vh;
+  }
+  .image_text{
+      font-size: medium;
+  }
+  .heading_below_main_image{
+      font-size: x-small;
+  }
+  .flex_container{
+      margin-right: 5%;
+  }
+  .flex_container h2{
+      font-size: x-small;
+  }
+  .flex_container p{
+      font-size: 5px;
+  }
+  .coffee_icon{
+      width: 30%;
+  }
+  .hands_icon{
+    width: 30%;
+  }
+  .history_icon{
+    width: 30%;
+  }
+  .home_page_button{
+      font-size: x-small ;
+  }
+  .program_heading_text{
+      font-size: large;
+  }
+  .home_page_button{
+     width: 30%; 
+  }
+  .opening_time_heading{
+      font-size: small;
+  }
+  .text_row{
+      padding: 5%;
+      margin: 2%;
+      margin-top: 5%;
+  }
+  .text_column{
+      font-size: small;
+  }
+  .bottom_text_1{
+      font-size: small;
+      margin-top: 30%;
+  }
+  .bottom_text_2{
+      font-size: medium;
+      margin: 2%;
+      margin-bottom: 5%;
+  }
+  /* about page */
+  .coffee{
+    width: 40%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .text_image_container h2{
+    font-size: smaller;
+    text-align: center;
+  }
+  .text_image_container p{
+    font-size: 7px;
+    text-align: center;
+  }
+ .salle2{
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+  }
+ .image_text_container h2{
+    font-size: smaller;
+    text-align: center;
+  }
+  .image_text_container p{
+    font-size: 7px;
+    text-align: center;
+  }
+  /* contact */
+  .contact_heading{
+      font-size: small;
+  }
+  .address{
+    font-size: xx-small;
+  }
+  .contact_info p{
+    font-size: xx-small;
+  }
+  form button{
+      width: 40%;
+      font-size: x-small;
+  }
+  .popUp h2{
+      font-size: small;
+  }
+  .popUp p{
+      font-size: xx-small;
+  }
+  #close_btn{
+      width: 25%;
+      font-size: x-small;
+  }
+ 
+}
